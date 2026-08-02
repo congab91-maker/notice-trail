@@ -7,7 +7,7 @@ NoticeTrail is a public-record comparison ledger that uses GenLayer validator co
 - Studionet contract: [`0xB6031E1b9F464E9D7982769A38010EE474554caA`](https://explorer-studio.genlayer.com/address/0xB6031E1b9F464E9D7982769A38010EE474554caA)
 - Deployment transaction: [`0x2ffc1dcc…93ecb`](https://explorer-studio.genlayer.com/tx/0x2ffc1dcc44c4cd18611479d902bd8a4ff021411b18326d09343bd014bfd93ecb)
 - Current-code upgrade: [`0x13a459fe…b217e`](https://explorer-studio.genlayer.com/tx/0x13a459feecb5767cad16e235b691e49dafdffe4b09ddef70da47bce9bf3b217e)
-- Live app: added after the separately authorized Vercel deployment stage.
+- Live app: [https://notice-trail.vercel.app](https://notice-trail.vercel.app)
 
 ## Trust problem
 

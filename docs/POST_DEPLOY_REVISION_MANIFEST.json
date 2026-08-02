@@ -1,6 +1,6 @@
 {
   "schema": "NOTICE_TRAIL_POST_DEPLOY_REVISION_MANIFEST_V1",
-  "checkpoint": "PRE_GITHUB_PUSH",
+  "checkpoint": "POST_GITHUB_VERCEL_FINAL",
   "hash_algorithm": "sha256",
   "root_algorithm": "sha256 of UTF-8 concatenation of path-sorted '<file_sha256>  <relative_posix_path>\\n' lines",
   "self_exclusion": "docs/POST_DEPLOY_REVISION_MANIFEST.json is excluded from root to avoid circular hashing",
@@ -23,7 +23,7 @@
     "pip/",
     "*.log"
   ],
-  "revision_state": "GITHUB_PRESENTATION_PRE_PUSH_READY",
+  "revision_state": "FINAL_REVIEW_READY",
   "deployed_contract_source_sha256": "72f6864155e2c226cfc4d05233a45f3f3d0a7457942da69739c4fcc17f52ad2d",
   "candidate_contract_source_sha256": "72f6864155e2c226cfc4d05233a45f3f3d0a7457942da69739c4fcc17f52ad2d",
   "deployment_evidence": {
@@ -46,9 +46,19 @@
     "safe_upgrade_rehearsal_upgrade_transaction": "0xab58ff50adcc30384d059b190ad853dc8b758ce1e86824d7332aca25e6d5459f",
     "safe_upgrade_rehearsal_status": "FINALIZED_SUCCESS",
     "safe_upgrade_rehearsal_source_parity": true,
-    "safe_upgrade_rehearsal_record_digest_preserved": true
+    "safe_upgrade_rehearsal_record_digest_preserved": true,
+    "live_web": {
+      "vercel_team_project": "brunogg/notice-trail",
+      "deployment_id": "dpl_FaQK6rk6qmHpEEGpwU5CyRqUSmbq",
+      "immutable_url": "https://notice-trail-3g9mhdnze-brunogg.vercel.app",
+      "production_url": "https://notice-trail.vercel.app",
+      "status": "READY",
+      "http_status": 200,
+      "contract_configuration_verified": true,
+      "rpc_configuration_verified": true
+    }
   },
-  "project_root_sha256": "fc4a799b143f9afcfa67edafa8055a3546684b1cc034a088fdcf4d64a9bafe07",
+  "project_root_sha256": "1e013ff9ac67f372c13a526f8ab3fa733241986487fb255d935eced3d980ed68",
   "included_file_count": 39,
   "eligible_discovery_count": 39,
   "eligible_files_omitted": [],
@@ -70,8 +80,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 8067,
-      "sha256": "1b139589d89c01bdc3880e835862def14d8051eb180495648740246c3a88a4ba"
+      "size_bytes": 8071,
+      "sha256": "bc70b896d6cf138caeeccc27063a626592925cea8f922355d6ee75446fe5b995"
     },
     {
       "path": "contracts/notice_trail.py",
@@ -85,8 +95,8 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "size_bytes": 5710,
-      "sha256": "1a7246ae6aadb3c300c7ca2b1dd6f6a19e090426f6b5fabf807e6f5cc143104d"
+      "size_bytes": 6278,
+      "sha256": "b4be09725f900cb90724953599fb1a24e9047d13f0858b226888b5d1ead04890"
     },
     {
       "path": "eslint.config.js",

@@ -1,6 +1,6 @@
 # NoticeTrail Verification
 
-This document binds the public release to the verified Studionet deployment and reproducible checks. The public live URL is populated during its separately authorized Vercel deployment step.
+This document binds the public release to the verified Studionet deployment, production web deployment and reproducible checks.
 
 ## Revision
 
@@ -9,7 +9,18 @@ This document binds the public release to the verified Studionet deployment and 
 - Contract source SHA-256: `72f6864155e2c226cfc4d05233a45f3f3d0a7457942da69739c4fcc17f52ad2d`
 - Deterministic reviewed pre-Git project root: `ffcd9a8fdf6e7cfbcc013978b3a31f793ec162bc53dd5dd6fe581d7f0b726509`
 - Revision manifest: `docs/POST_DEPLOY_REVISION_MANIFEST.json`
-- Live web: pending separately authorized Vercel deployment
+- Live web: [https://notice-trail.vercel.app](https://notice-trail.vercel.app)
+
+## Production web deployment
+
+- Vercel team/project: `brunogg/notice-trail`
+- Deployment ID: `dpl_FaQK6rk6qmHpEEGpwU5CyRqUSmbq`
+- Immutable deployment: [https://notice-trail-3g9mhdnze-brunogg.vercel.app](https://notice-trail-3g9mhdnze-brunogg.vercel.app)
+- Production alias: [https://notice-trail.vercel.app](https://notice-trail.vercel.app)
+- Status: `Ready`
+- HTTP smoke test: `200`, `text/html; charset=utf-8`
+- Production bundle: `assets/index-C_ZbaHRM.js`, 743,488 bytes
+- Bundle configuration readback: exact contract `0xB6031E1b9F464E9D7982769A38010EE474554caA` and RPC `https://studio.genlayer.com/api`
 
 ## Studionet deployment
 
