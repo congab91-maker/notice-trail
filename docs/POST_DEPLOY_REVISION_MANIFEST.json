@@ -49,8 +49,6 @@
     "safe_upgrade_rehearsal_record_digest_preserved": true,
     "live_web": {
       "vercel_team_project": "brunogg/notice-trail",
-      "deployment_id": "dpl_FaQK6rk6qmHpEEGpwU5CyRqUSmbq",
-      "immutable_url": "https://notice-trail-3g9mhdnze-brunogg.vercel.app",
       "production_url": "https://notice-trail.vercel.app",
       "status": "READY",
       "http_status": 200,
@@ -58,7 +56,7 @@
       "rpc_configuration_verified": true
     }
   },
-  "project_root_sha256": "1e013ff9ac67f372c13a526f8ab3fa733241986487fb255d935eced3d980ed68",
+  "project_root_sha256": "d636582d52582238b6c2043c39971e0f83e042506c5e95c3bde7ec391a6740b9",
   "included_file_count": 39,
   "eligible_discovery_count": 39,
   "eligible_files_omitted": [],
@@ -80,8 +78,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 8071,
-      "sha256": "bc70b896d6cf138caeeccc27063a626592925cea8f922355d6ee75446fe5b995"
+      "size_bytes": 8104,
+      "sha256": "5bbfeac4d288d9659b3f62a55ff0365652c640596bf110661605e7dd7d2d8d78"
     },
     {
       "path": "contracts/notice_trail.py",
@@ -95,8 +93,8 @@
     },
     {
       "path": "docs/VERIFICATION.md",
-      "size_bytes": 6278,
-      "sha256": "b4be09725f900cb90724953599fb1a24e9047d13f0858b226888b5d1ead04890"
+      "size_bytes": 6088,
+      "sha256": "fa4be13a898f680d7f552ebdb5041043d507bc3cc141fd59e526458712b25620"
     },
     {
       "path": "eslint.config.js",
@@ -110,13 +108,13 @@
     },
     {
       "path": "package-lock.json",
-      "size_bytes": 227647,
-      "sha256": "9c3ea5bb7719f12746aad008a134010e49f69e8ebb2b96267f1b0296c726aada"
+      "size_bytes": 230528,
+      "sha256": "0173b6c278ac3b39dbc6b19701366fcaec8f11ca6b8a9d59467b5a5913254783"
     },
     {
       "path": "package.json",
-      "size_bytes": 1066,
-      "sha256": "73f8702e146e40320dd723ee0fd7e4bc1a2710045696a5d45b394491c7ac5238"
+      "size_bytes": 1069,
+      "sha256": "d7534fb84b8765139a6651a1cd2ed194f2a39385607c4903da83cc5869f43e55"
     },
     {
       "path": "src/App.tsx",

@@ -14,12 +14,9 @@ This document binds the public release to the verified Studionet deployment, pro
 ## Production web deployment
 
 - Vercel team/project: `brunogg/notice-trail`
-- Deployment ID: `dpl_FaQK6rk6qmHpEEGpwU5CyRqUSmbq`
-- Immutable deployment: [https://notice-trail-3g9mhdnze-brunogg.vercel.app](https://notice-trail-3g9mhdnze-brunogg.vercel.app)
 - Production alias: [https://notice-trail.vercel.app](https://notice-trail.vercel.app)
 - Status: `Ready`
 - HTTP smoke test: `200`, `text/html; charset=utf-8`
-- Production bundle: `assets/index-C_ZbaHRM.js`, 743,488 bytes
 - Bundle configuration readback: exact contract `0xB6031E1b9F464E9D7982769A38010EE474554caA` and RPC `https://studio.genlayer.com/api`
 
 ## Studionet deployment
@@ -66,11 +63,12 @@ npm test
 npm run lint
 npm run typecheck
 npm run build
+npm audit
 py -3.13 -m pytest tests/direct -W error
 py -3.13 -m pip check
 ```
 
-Verified results: 155 DirectVM tests, 105 frontend tests, GenVM lint/validation with 10 public methods, ESLint, TypeScript and production build all pass; `pip check` reports no broken requirements. The build emits one non-blocking approximately 743.49 kB chunk warning.
+Verified results: 155 DirectVM tests, 105 frontend tests, GenVM lint/validation with 10 public methods, ESLint, TypeScript and production build all pass; `npm audit` reports 0 vulnerabilities and `pip check` reports no broken requirements. The build emits one non-blocking approximately 744.09 kB chunk warning.
 
 ## Known limitations
 

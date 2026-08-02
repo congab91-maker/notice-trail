@@ -103,6 +103,7 @@ Current verified results:
 - ESLint: PASS
 - TypeScript: PASS
 - Production build: PASS
+- `npm audit`: 0 vulnerabilities
 - `pip check`: no broken requirements
 
 See [verification evidence](docs/VERIFICATION.md) for live transactions and source parity.
@@ -136,5 +137,5 @@ The recovery manifest documents the principal deployment, current-code upgrade, 
 - Source structure or availability can change after registration and affect later reassessments.
 - The adapter does not follow attachments or certify that a URL is institutionally authoritative.
 - Public `evidence_fingerprint` values may vary across semantically equivalent reassessments when only the optional prompt-injection annotation varies; stable consensus fields remain exact.
-- The production bundle currently emits a non-blocking approximately 743.49 kB chunk-size warning.
+- The production bundle currently emits a non-blocking approximately 744.09 kB chunk-size warning.
 - Upgrader authority currently has single-key concentration risk.
