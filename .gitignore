@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+artifacts/
+coverage/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+pip/
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Local governance, AI workflow, and working specification files
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+ANTIGRAVITY-HANDOFF-PROMPT.md
+SPEC.md
